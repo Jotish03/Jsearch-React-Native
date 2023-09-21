@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "jsearch",
+    "slug": "jsearch",
+    "scheme": "acme",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "android": {
+      "package": "com.jotish.jsearch",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "64472205-55fe-4db1-9e24-6248fbaedfc2"
+      }
+    },
+    "assetBundlePatterns": ["assets/*"]
+  }
+}
